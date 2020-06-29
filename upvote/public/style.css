@@ -1,10 +1,10 @@
 .dividing-header {
-  margin-top: 1em;
-  margin-bottom: 2em;
+    margin-top: 1em;
+    margin-bottom: 2em;
 }
 
 .section {
-  padding: 2rem 1.5rem;
+    padding: 2rem 1.5rem;
 }
 
 .media {
@@ -16,22 +16,24 @@
 }
 
 .media + .media {
-  margin-top: 1.5rem;
+    margin-top: 1.5rem;
 }
 
-
-
 .tag {
-  font-size: 0.6rem !important;
+    font-size: 0.6rem !important;
 }
 
 .icon {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .image.is-24x24 {
-  display: inline;
-  position: relative;
-  top: 5px;
-  border-radius: 20px;
+    display: inline;
+    position: relative;
+    top: 5px;
+    border-radius: 20px;
+}
+
+.blue-border {
+    border: 1px solid #3373dc !important;
 }
