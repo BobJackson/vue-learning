@@ -3,7 +3,7 @@ const EventBus = new Vue();
 const inputComponent = {
   template: `
     <input class="input is-small" type="text"
-        :placehodler="placeholder"
+        :placeholder="placeholder"
         v-model="input"
         @keyup.enter="monitorEnterKey"/>`,
   props: ['placeholder'],
